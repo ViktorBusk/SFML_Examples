@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Boid">
+      <UniqueIdentifier>{18b3ec3d-5008-4769-9764-05ff5b68369e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Fluid">
+      <UniqueIdentifier>{11da45eb-99c4-4fc3-b9da-c08ccaee23bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Boid">
+      <UniqueIdentifier>{2591087b-061c-430d-b045-f8548a6bc333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Fluid">
+      <UniqueIdentifier>{8d5c13a5-e63d-4766-b299-b3f83f92bf49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\A%2a">
+      <UniqueIdentifier>{cde2f018-822a-4647-bfc5-0d49c7f02f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\A%2a">
+      <UniqueIdentifier>{ec662f77-900e-4e5f-a820-adbc24259450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shadows">
+      <UniqueIdentifier>{544f4bc2-ba87-45a0-879b-7987f191b7be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Noise">
+      <UniqueIdentifier>{0b2af52c-8d86-4f20-9835-cd9ff39d3bf7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Predator.h">
+      <Filter>Header Files\Boid</Filter>
+    </ClInclude>
+    <ClInclude Include="Boid.h">
+      <Filter>Header Files\Boid</Filter>
+    </ClInclude>
+    <ClInclude Include="FluidCube.h">
+      <Filter>Header Files\Fluid</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\A%2a</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Header Files\A%2a</Filter>
+    </ClInclude>
+    <ClInclude Include="Fibonacci.hpp">
+      <Filter>Resource Files\A%2a</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightSource.h">
+      <Filter>Header Files\Shadows</Filter>
+    </ClInclude>
+    <ClInclude Include="PerlinNoise.h">
+      <Filter>Header Files\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenerator.h">
+      <Filter>Header Files\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="simMouse.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Slider.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BoidSim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FluidSim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2D-Gravity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Boid.cpp">
+      <Filter>Resource Files\Boid</Filter>
+    </ClCompile>
+    <ClCompile Include="Predator.cpp">
+      <Filter>Resource Files\Boid</Filter>
+    </ClCompile>
+    <ClCompile Include="FluidCube.cpp">
+      <Filter>Resource Files\Fluid</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Resource Files\A%2a</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Resource Files\A%2a</Filter>
+    </ClCompile>
+    <ClCompile Include="KruskalSim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowSim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightSource.cpp">
+      <Filter>Header Files\Shadows</Filter>
+    </ClCompile>
+    <ClCompile Include="NoiseSim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PerlinNoise.cpp">
+      <Filter>Header Files\Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenerator.cpp">
+      <Filter>Header Files\Noise</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
